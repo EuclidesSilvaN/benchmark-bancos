@@ -66,6 +66,14 @@ colecao.insert_many(jogos)
 fim = time.perf_counter()
 resultados.append(("Insercao_Massa", round(fim - inicio, 4)))
 
+# Inserção em massa de novos jogos
+with open("novos_jogos.json", "r", encoding="utf-8") as f:
+    novos_jogos = json.load(f)
+inicio = time.perf_counter()
+colecao.insert_many(novos_jogos)
+fim = time.perf_counter()
+resultados.append(("Insercao_Massa_Novos", round(fim - inicio, 4)))
+
 # Salvar CSV
 with open("results.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer = csv.writer(csvfile)

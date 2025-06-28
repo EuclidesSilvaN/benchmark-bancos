@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Hollow Knight",
+    "genero": ["Ação", "Aventura"],
+    "preco": 49.90,
+    "avaliacoes": [
+      {"usuario": "buglover", "nota": 5, "comentario": "Metroidvania perfeito!"},
+      {"usuario": "deepnest", "nota": 4, "comentario": "Atmosfera incrível."}
+    ],
+    "empresa": "Team Cherry",
+    "data_lancamento": "2017-02-24"
+  },
+  {
+    "nome": "Celeste",
+    "genero": ["Plataforma", "Indie"],
+    "preco": 39.90,
+    "avaliacoes": [
+      {"usuario": "madeline", "nota": 5, "comentario": "Desafio e emoção na medida certa."},
+      {"usuario": "mountain", "nota": 5, "comentario": "Trilha sonora maravilhosa."}
+    ],
+    "empresa": "Matt Makes Games",
+    "data_lancamento": "2018-01-25"
+  },
+  {
+    "nome": "Stardew Valley",
+    "genero": ["Simulação", "RPG"],
+    "preco": 24.90,
+    "avaliacoes": [
+      {"usuario": "fazendeiro", "nota": 5, "comentario": "Viciante e relaxante."},
+      {"usuario": "joja", "nota": 4, "comentario": "Ótimo para jogar em família."}
+    ],
+    "empresa": "ConcernedApe",
+    "data_lancamento": "2016-02-26"
+  },
+  {
+    "nome": "Undertale",
+    "genero": ["RPG", "Indie"],
+    "preco": 19.90,
+    "avaliacoes": [
+      {"usuario": "frisk", "nota": 5, "comentario": "História inesquecível."},
+      {"usuario": "sans", "nota": 5, "comentario": "Humor e emoção juntos."}
+    ],
+    "empresa": "tobyfox",
+    "data_lancamento": "2015-09-15"
+  },
+  {
+    "nome": "Cuphead",
+    "genero": ["Ação", "Plataforma"],
+    "preco": 29.90,
+    "avaliacoes": [
+      {"usuario": "mugman", "nota": 4, "comentario": "Desafio insano!"},
+      {"usuario": "bossrush", "nota": 5, "comentario": "Visual único e nostálgico."}
+    ],
+    "empresa": "Studio MDHR",
+    "data_lancamento": "2017-09-29"
+  }
+] 
