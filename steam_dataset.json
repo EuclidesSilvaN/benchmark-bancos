@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Elden Ring",
+    "genero": ["RPG", "Ação"],
+    "preco": 299.90,
+    "avaliacoes": [
+      {"usuario": "nathan_rpg", "nota": 5, "comentario": "Obra-prima do gênero soulslike."},
+      {"usuario": "claudia_ds", "nota": 4, "comentario": "Difícil, mas recompensador!"}
+    ],
+    "empresa": "FromSoftware",
+    "data_lancamento": "2022-02-25"
+  },
+  {
+    "nome": "FIFA 25",
+    "genero": ["Esporte", "Simulação"],
+    "preco": 349.90,
+    "avaliacoes": [
+      {"usuario": "jogador_fc", "nota": 3, "comentario": "Poucas mudanças desde o FIFA 24."},
+      {"usuario": "marta_gol", "nota": 4, "comentario": "Jogar online está mais fluido!"}
+    ],
+    "empresa": "EA Sports",
+    "data_lancamento": "2024-09-27"
+  },
+  {
+    "nome": "GTA VI",
+    "genero": ["Ação", "Mundo Aberto"],
+    "preco": 399.90,
+    "avaliacoes": [
+      {"usuario": "lucasvcrime", "nota": 5, "comentario": "Valeu a espera! Incrível."},
+      {"usuario": "vania_open", "nota": 5, "comentario": "Exploração imersiva demais!"}
+    ],
+    "empresa": "Rockstar Games",
+    "data_lancamento": "2025-03-14"
+  },
+  {
+    "nome": "God of War",
+    "genero": ["Ação", "Aventura"],
+    "preco": 199.90,
+    "avaliacoes": [
+      {"usuario": "kratos_boy", "nota": 5, "comentario": "História e gameplay perfeitos."},
+      {"usuario": "thor_fan", "nota": 4, "comentario": "Combate pesado, mas fluido!"}
+    ],
+    "empresa": "Santa Monica Studio",
+    "data_lancamento": "2018-04-20"
+  },
+  {
+    "nome": "Persona 5",
+    "genero": ["RPG", "JRPG"],
+    "preco": 179.90,
+    "avaliacoes": [
+      {"usuario": "joker_shadow", "nota": 5, "comentario": "Visual e trilha sonora impecáveis."},
+      {"usuario": "ann_chan", "nota": 5, "comentario": "Melhor JRPG que já joguei!"}
+    ],
+    "empresa": "Atlus",
+    "data_lancamento": "2016-09-15"
+  },
+  {
+    "nome": "Mortal Kombat 1",
+    "genero": ["Luta", "Ação"],
+    "preco": 249.90,
+    "avaliacoes": [
+      {"usuario": "scorpion_fan", "nota": 5, "comentario": "Fatalities brutais e lindos."},
+      {"usuario": "mk_legend", "nota": 4, "comentario": "Campanha curta, mas divertida."}
+    ],
+    "empresa": "NetherRealm Studios",
+    "data_lancamento": "2023-09-19"
+  },
+  {
+    "nome": "Minecraft",
+    "genero": ["Sandbox", "Sobrevivência"],
+    "preco": 99.90,
+    "avaliacoes": [
+      {"usuario": "build_master", "nota": 5, "comentario": "Criatividade sem limites."},
+      {"usuario": "mina_craft", "nota": 5, "comentario": "Jogo eterno e educativo."}
+    ],
+    "empresa": "Mojang Studios",
+    "data_lancamento": "2011-11-18"
+  },
+  {
+    "nome": "The Last of Us",
+    "genero": ["Aventura", "Sobrevivência"],
+    "preco": 249.90,
+    "avaliacoes": [
+      {"usuario": "joel_ellie", "nota": 5, "comentario": "Narrativa tocante e intensa."},
+      {"usuario": "clickerbr", "nota": 4, "comentario": "Gameplay denso e emocional."}
+    ],
+    "empresa": "Naughty Dog",
+    "data_lancamento": "2013-06-14"
+  },
+  {
+    "nome": "Dark Souls",
+    "genero": ["RPG", "Ação"],
+    "preco": 89.90,
+    "avaliacoes": [
+      {"usuario": "soulsbr", "nota": 5, "comentario": "Difícil, mas viciante."},
+      {"usuario": "tarnished1", "nota": 4, "comentario": "Gráficos antigos, mas gameplay eterno."}
+    ],
+    "empresa": "FromSoftware",
+    "data_lancamento": "2011-09-22"
+  },
+  {
+    "nome": "Batman: Arkham City",
+    "genero": ["Ação", "Aventura"],
+    "preco": 59.90,
+    "avaliacoes": [
+      {"usuario": "batman_gotham", "nota": 5, "comentario": "Melhor jogo do morcego."},
+      {"usuario": "joker_time", "nota": 4, "comentario": "Combate e stealth excelentes."}
+    ],
+    "empresa": "Rocksteady Studios",
+    "data_lancamento": "2011-10-18"
+  }
+]
