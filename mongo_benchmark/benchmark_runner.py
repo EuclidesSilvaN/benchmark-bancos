@@ -1,6 +1,7 @@
 from pymongo import MongoClient
 import time
 import csv
+import json
 
 # Conectar ao MongoDB
 cliente = MongoClient("mongodb://localhost:27017/")
@@ -9,6 +10,9 @@ colecao = db["games"]
 
 # Resultados temporários
 resultados = []
+
+# Limpar a coleção antes do benchmark
+colecao.delete_many({})
 
 # 1. Inserção
 novo_jogo = {
@@ -53,6 +57,14 @@ inicio = time.perf_counter()
 colecao.delete_one({"nome": "FIFA 25"})
 fim = time.perf_counter()
 resultados.append(("Delecao", round(fim - inicio, 4)))
+
+# 0. Inserção em Massa
+with open("../steam_dataset.json", "r", encoding="utf-8") as f:
+    jogos = json.load(f)
+inicio = time.perf_counter()
+colecao.insert_many(jogos)
+fim = time.perf_counter()
+resultados.append(("Insercao_Massa", round(fim - inicio, 4)))
 
 # Salvar CSV
 with open("results.csv", "w", newline="", encoding="utf-8") as csvfile:

@@ -1,0 +1,7 @@
+Operacao,Tempo_MongoDB
+Insercao,0.001
+Consulta_Simples,0.0024
+Consulta_Complexa,0.0012
+Atualizacao,0.0013
+Delecao,0.0006
+Insercao_Massa,0.0006
