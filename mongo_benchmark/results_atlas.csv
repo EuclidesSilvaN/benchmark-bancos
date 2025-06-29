@@ -1,0 +1,7 @@
+Operacao,Tempo_MongoDB_Atlas
+Insercao_Massa,16.4266
+Consulta_Simples,0.0361
+Consulta_Complexa,0.0359
+Agregacao,0.0436
+Atualizacao_Massa,0.0443
+Delecao_Massa,0.0346

@@ -4,7 +4,7 @@ import csv
 import json
 
 # Conectar ao MongoDB
-cliente = MongoClient("mongodb://localhost:27017/")
+cliente = MongoClient("mongodb+srv://euclidespu21:9zYS8ofWt8vvVER@cluster0.s2qxmqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = cliente["steam_db"]
 colecao = db["games"]
 

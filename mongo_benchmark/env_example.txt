@@ -1,0 +1,12 @@
+# MongoDB Atlas Configuration
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
+DATABASE_NAME=steam_db
+COLLECTION_NAME=games
+
+# Dataset Configuration
+STEAM_DATASET_PATH=steam_dataset.json
+LARGE_DATASET_PATH=novos_jogos.json
+
+# Benchmark Configuration
+BATCH_SIZE=1000
+MAX_DOCUMENTS=10000 

@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 import time
 
-# Conectando ao MongoDB local
-cliente = MongoClient("mongodb://localhost:27017/")
+# Conectando ao MongoDB Atlas
+cliente = MongoClient("mongodb+srv://euclidespu21:9zYS8ofWt8vvVER@cluster0.s2qxmqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = cliente["steam_db"]
 colecao = db["games"]
 
