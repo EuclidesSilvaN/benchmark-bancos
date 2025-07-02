@@ -164,3 +164,5 @@ Se encontrar problemas:
 2. Confirme as credenciais no arquivo `.env`
 3. Teste a conexão com `python setup_atlas.py`
 4. Verifique se o dataset está no formato correto 
+
+dataset da Steam "https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset"
